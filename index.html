@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pustaka Hijau | Jendela Dunia Anak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Logo Pustaka Hijau">
+                <span class="logo-text">Pustaka Hijau | Jendela Dunia Anak</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" onclick="showPage('home')" class="nav-item">Beranda</a></li>
+                <li><a href="#" onclick="showPage('koleksi')" class="nav-item">Koleksi</a></li>
+                <li><a href="#" onclick="showPage('tips')" class="nav-item">Tips</a></li>
+                <li><a href="#" onclick="showPage('about')" class="nav-item">About</a></li>
+                <li><a href="#" onclick="showPage('kontak')" class="nav-item">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section id="home" class="page active">
+            <div class="hero-card">
+                <span class="badge">Selamat Datang! 👋</span>
+                <h1>Ayo Jelajahi Dunia Lewat Buku!</h1>
+                <p>Temukan ribuan cerita ajaib dan ilmu pengetahuan seru yang dirancang khusus untuk teman-teman kecil.</p>
+                <button class="btn-primary" onclick="showPage('koleksi')">Mulai Petualangan 📖</button>
+            </div>
+        </section>
+
+        <section id="koleksi" class="page">
+            <div class="section-header">
+                <h2>📚 Koleksi Buku Seru</h2>
+                <p>Pilih buku favoritmu dan mulailah membaca!</p>
+            </div>
+            <div class="grid-container">
+    <div class="book-card">
+        <div class="book-image-container">
+            <img src="buku 1.jpeg" alt="Aum Aum Dinosaurus" class="book-cover">
+        </div>
+        <h3>Aum, Aum, Dinosaurus!</h3>
+        <p>Kisah Dino yang belajar tentang kebersamaan.</p>
+        <button class="btn-small">Baca Buku</button>
+    </div>
+
+    <div class="book-card">
+        <div class="book-image-container">
+            <img src="buku 2.jpeg" alt="Kumpulan Cerita Anak" class="book-cover">
+        </div>
+        <h3>Cerita Anak 3 Bahasa</h3>
+        <p>Koleksi cerita menarik dalam bahasa Indonesia, Inggris, dan Mandarin.</p>
+        <button class="btn-small">Baca Buku</button>
+     </div>
+        </section>
+
+        <section id="tips" class="page">
+            <div class="section-header">
+                <h2>💡 Tips Membaca Asyik</h2>
+            </div>
+            <div class="grid-container">
+                <div class="info-card"><h3>🛋️ Nyaman</h3><p>Cari tempat duduk yang paling empuk.</p></div>
+                <div class="info-card"><h3>💡 Terang</h3><p>Pastikan lampu cukup terang agar mata sehat.</p></div>
+                <div class="info-card"><h3>🍎 Camilan</h3><p>Siapkan camilan sehat agar lebih semangat.</p></div>
+            </div>
+        </section>
+
+        <section id="about" class="page">
+            <div class="hero-card">
+                <h2>🌟 Tentang Pustaka Hijau</h2>
+                <p>Website ini dikembangkan untuk meningkatkan literasi anak Indonesia dengan tampilan hijau segar dan ceria. Website Pustaka Hijau lahir dari sebuah visi untuk menciptakan ruang literasi digital yang aman, ceria, dan edukatif bagi anak-anak Indonesia. Di tengah gempuran konten digital yang kompleks, Pustaka Hijau hadir dengan pendekatan yang sangat sederhana namun bermakna, menggunakan narasi yang mudah dipahami</p>
+            </div>
+        </section>
+
+        <section id="kontak" class="page">
+            <div class="section-header">
+                <h2>📞 Hubungi Kami</h2>
+        <div class="contact-list">
+            <div class="contact-item">
+                <strong>👤 Nama:</strong> <span>Pustaka Hijau Indonesia</span>
+            </div>
+            <div class="contact-item">
+                <strong>📧 Email:</strong> <span>halo@pustakahijau.id</span>
+            </div>
+            <div class="contact-item">
+                <strong>🌐 Web:</strong> <span>www.pustakahijau.id</span>
+            </div>
+            <div class="contact-item">
+                <strong>📞 WhatsApp:</strong> <span>0812-3456-7890</span>
+            </div>
+        </div>
+    
+    </div>
+</section>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p><strong>@orang kaya</strong></p>
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
